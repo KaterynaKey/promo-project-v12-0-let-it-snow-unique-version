@@ -1,0 +1,69 @@
+@media (max-width: 1430px) {
+  .limit {
+    padding: 60px 40px 130px 40px;
+  }
+
+  .code-blocks-wrapper .code-block {
+    width: calc(50% - 20px);
+  }
+
+  .code-buttons-wrapper {
+    flex-wrap: wrap;
+  }
+
+  .input-number-block {
+    width: 100%;
+    align-items: center;
+    br {
+      display: none;
+    }
+
+  }
+
+  .primary-button {
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 901px) {
+  .code-blocks-wrapper {
+    flex-wrap: wrap;
+  }
+
+  .code-blocks-wrapper .code-block {
+    width: 100%;
+    margin-bottom: 40px;
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+
+  .main-wrapper {
+    background:  url('../image/gr.png') center bottom no-repeat, url('../image/christmas-lights.png') left top repeat-x,  url('../image/snow-2.png') left top repeat;
+    -webkit-background-size:  120px auto, 160px auto,  120px auto;
+    background-size:  120px auto, 160px auto,  120px auto;
+  }
+}
+
+@media (max-width: 502px) {
+  .main-headline {
+    font-size: 26px;
+    margin-bottom: 18px;
+  }
+
+  .limit {
+    padding: 60px 20px 130px 20px;
+  }
+
+  .primary-text-editor-bg:after {
+    width: 70px;
+    height: 78px;
+    position: absolute;
+    right: 6px;
+    top: -69px;
+  }
+
+  .primary-text-editor-wrapper .main-headline {
+    margin-right: 90px;
+  }
+}
