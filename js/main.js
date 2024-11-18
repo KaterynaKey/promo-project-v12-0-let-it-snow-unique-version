@@ -473,8 +473,8 @@ function wrapTextInSpan(htmlContent) {
                            <a href="urlhere" target="_blank">
                                <img alt="Video preview" height="auto"
                                     src="/preview"
-                                    style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;max-width: 560px;font-size:13px;"
-                                    width="560"/>
+                                    style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;max-width: 558px;font-size:13px;"
+                                    width="558"/>
                            </a>
                        </td>
                     </tr>
